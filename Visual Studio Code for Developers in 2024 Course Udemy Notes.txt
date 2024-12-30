@@ -1,0 +1,364 @@
+Visual Studio Code for Developers 2024
+---------------------------------------------------------------------------------------------------
+
+Visual studioyu açmadan Komut istemcisi ile Bir dizi Komut yardımıyla Visual studioyu açmak
+---------------------------------------------------------
+Komut İstemcisinde Windowsun:
+(cmd--Command Prompt)
+
+C:\Users\dogan\> (kısmında "cd Desktop yazıp" masaüstüne gircez)
+
+C:\Users\dogan\Desktop\> (Olduğunda hangi dosya içerisinde çalışmak istiyorsak o şekilde "Dosya ismi" şeklinde yazılacak)
+
+C:\Users\dogan\Desktop\> "Visual Studio Code for Develepors 2024"
+
+C:\Users\dogan\Desktop\Visual Studio Code for Develepors 2024\>code . (Yazdığımızda komple Visual studioyu açar)
+
+C:\Users\dogan\Desktop\Visual Studio Code for Develepors 2024\>cd my-app (my-app klasörünü aç uzantıdaki)
+
+C:\Users\dogan\Desktop\Visual Studio Code for Develepors 2024\>cd my-app>code package.json (sadece package.json dosyasını VC codeda açar)
+
+C:\Users\dogan\Desktop\Visual Studio Code for Develepors 2024\>cd my-app>code package.json src\App.css (yazarsamda 2 farklı dosyayı yani Multipile Folders yapar)
+
+Set-Acl -Path 'C:\Usersdogan\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt' -AclObject (Get-Acl -Path 'C:\Users\dogan\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt') -AccessRule (New-Object System.Security.AccessControl.FileSystemAccessRule('dogan', 'FullControl', 'Allow'))
+
+Take-Ownership -Path 'C:\Users\dogan\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt'
+
+glyph margin - red dots by the codes
+
+minimap - surfing on the code blocks
+------------------------------------------------------------------------------------------------------------------------------
+
+Shortcuts In Keyboard
+
+-------------------------------------------------------
+Ctrl+K,F = Close Folder
+Ctrl+,  = Settings
+Ctrl+" = Terminal
+Ctrl+N = New file for codes
+Ctrl+O = Open File
+Ctrl+K,Ctrl+O = Open Folder
+Ctrl+F4 = Close window
+Ctrl+Alt+Windows+N = New file with Extensions you can change file type.
+Ctrl+S = Save my changes in my workspace
+Shift+Alt+F = Girinti ayarını 2 den 4 e çektin değişiklik oldmadı fakat sonra bunu yaptığında değişiklik oluyor.
+Ctrl+Alt+Shift+N = New Folder for your Workspace folder,Before you do that you have to open a workspace folder.
+Ctrl+K , Ctrl+T = Change the theme
+
+********* In settings Shift + F9 for go back to default settings after we costumized our settings. ***********
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Ctrl+Sift+P = Preference Configuring Language Specific Settings , Customize each programing spaces
+	 
+	**//////////////////////////////////// Ctrl + Shift + P = Search for "setting.json" file and make changes in that file\\\\\\\\\\\\\\\\\\\\\\\\\\\**
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+In settings,
+
+If you want to filter by lang,First thing to open the setting bar and write @lang:javascript for ex.
+								      	    @lang:python
+								            @lang:css 
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+Hexadecimal Color : Colour Codes for Softwares for example = "#fe5623" bright orange
+(16'lık Renk)					           = "#cc5108" Orange between Brown
+							   = "#80cfe8" Light Sky blue
+---------------------------------------------------------------------------------------------------------------------------------
+Essential Keyboard Shortcuts
+-----------------------------
+Ctrl + Z = Undo
+Ctrl + Shift + L = All select "Name varition" write new name for all change in script file.simultaneously and automaticly.
+Ctrl + D = selecting occorunces next occurrence.(Before the replace all occorunces in script file,you select one by one top to bottom and left to rightwith Ctrl + D).If you rename after you had selected one by one ,Only Seleceted Occurences will change.The others not affect at all.
+Ctrl + / = Toggle Comment.(when we do that ,we will see our code will transform a comment with hashtag) like this #for(we generally use it for discription for our codes.) By the way it depends on which program language you use like ,If you use Python Program language It will be a Hash tag (#),But If you work with on a JavaScriptfile (.js.) It  will be like this.(<!-- FOR Exp -->) Between Two arrows and one exclamation mark and (ünlem işareti) spaces.
+Shift + Alt + F = Auto Formatting.Gives us Identation for our language format.
+Alt + Up or Down arrow = For using Sequencing Between in code.
+		       
+for expamle:İn style.css File 
+	    
+	h1{
+	   font-family: 'Courier New', Courier, monospace;
+           color: #1b09df ;
+       	   font-size: 56px;
+ }          #In here we press Alt + Shift + F, then we can change sorts of occurences(we can make the color occurences the first.)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Ctrl + P = You can change the current file, which is working on it,with out clicking a mouse or cursour.
+Ctrl + G = Jumping a Script line in the current file after bar openned write :(specific row number):(specific colon number) :16:3 16th row and 3rd character
+Ctrl + L = Select the entire line
+Ctrl + W  = Close all tab	
+Ctrl + K, Ctrl + S  = For keyboard shortcuts
+Ctrl + Ç = Split your work editor ,make group editor and duplicate the same work editor
+Ctrl + Alt + Shift + M = Toggle Minimap
+Ctrl + K, Ctrl + M = Maximize editor groups if you split side by side
+Ctrl + <Number> = Jump in between group editors
+Alt  + <Number> = Jump in between work editors
+Ctrl + K,F = Close the work space
+Ctrl + Shift + F : Shortcut for Search something
+F11 for Full Screen
+Ctrl + 0 for seleteced for editor file !!!!!!!!!!!!!!!!! (Ctrl + Shift + E) don't confuse with this shortcut this short cut shows all files in workbench !!!!!!!!!!!!!
+
+After selected file with Ctrl + 0 ,Press F2 for rename file, if you press twice F2+F2 select entire file name with extansion, if you press 3 times you can rename only extansion.
+ 
+We can create a file without mouseclilcking or a curser ,when you create new file with (Ctrl + Alt N) in Explorer then rename file with this for ex "my-folder/new-python-file.py" the important thing is use slash( / ) for create a folder or if you already have a working folder you can save in that folder to write that folder name. 
+
+Ctrl + K,Z for shortcut Zen mode
+When you want to go back from Zen mode press ESC tiwice to go back.
+Alt + Mouse wheel moving up and down for Fast scrolling.
+
+Ctrl + B = Toggle for primary bar
+Ctrl + Shift + A = Toggle Secondry Side bar
+Ctrl + J = Toggle for panel bar
+Ctrl + " = Toggle for Terminal bar
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Sticky Scroll A featuree that shows the first lines of the currently visible nested scopes at the top of the editor.
+
+___________________________________________________________________________________________________________________________________________________________________
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////██ ███    ███ ██████   ██████  ██████  ████████  █████  ███    ██ ████████/////███████ ███████  ██████ ████████ ██  ██████  ███    ██/////////////// 
+///////////////██ ████  ████ ██   ██ ██    ██ ██   ██    ██    ██   ██ ████   ██    ██   /////██      ██      ██         ██    ██ ██    ██ ████   ██/////////////// 
+///////////////██ ██ ████ ██ ██████  ██    ██ ██████     ██    ███████ ██ ██  ██    ██   /////███████ █████   ██         ██    ██ ██    ██ ██ ██  ██/////////////// 
+///////////////██ ██  ██  ██ ██      ██    ██ ██   ██    ██    ██   ██ ██  ██ ██    ██   /////     ██ ██      ██         ██    ██ ██    ██ ██  ██ ██/////////////// 
+///////////////██ ██      ██ ██       ██████  ██   ██    ██    ██   ██ ██   ████    ██   /////███████ ███████  ██████    ██    ██  ██████  ██   ████/////////////// 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////         
+//////////////////////////////////////////███████ ██   ██ ████████  █████  ███    ██ ███████ ██  ██████  ███    ██ ███████///////////////////////////////////////// 
+//////////////////////////////////////////██       ██ ██     ██    ██   ██ ████   ██ ██      ██ ██    ██ ████   ██ ██     ///////////////////////////////////////// 
+//////////////////////////////////////////█████     ███      ██    ███████ ██ ██  ██ ███████ ██ ██    ██ ██ ██  ██ ███████///////////////////////////////////////// 
+//////////////////////////////////////////██       ██ ██     ██    ██   ██ ██  ██ ██      ██ ██ ██    ██ ██  ██ ██      ██///////////////////////////////////////// 
+//////////////////////////////////////////███████ ██   ██    ██    ██   ██ ██   ████ ███████ ██  ██████  ██   ████ ███████///////////////////////////////////////// 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////        
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////         
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////        
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                        
+                                                                            
+********THIS SECTION WE'LL LEARN HOW TO CATAGORIZE OUR FİLES***********(PYTHON,JAVASCRIPT,HTML,CSS,EX..)
+
+What is an Extension?
+Extensions are like "add-ons" that you can download and install to add new functionality to your code editor.
+
+They include a variety of tools and features, such as:
+
+Support for programming languages
+
+Linters
+
+Debugging tools
+
+Themes
+
+Keymaps
+
+Code snippets
+
+Source control tools
+
+Code formatters
+
+And more!
+
+With just a few clicks, you can find the extensions that fit your needs and install them from the Extensions Marketplace, directly within Visual Studio Code.
+
+
+We can open with (Ctrl + Shift + X), shortcut.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+If you want to manage your extension you can click the gear button then manage your extension.
+When you want to see your vanilla mod(I call that mod which disable all extensions)
+1.Ctrl + Shift + P
+2.Write to search bar (Extensions:Disable All Installed Extensions
+                                                                                                                             
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Again if you don't want update your extensions by automaticlly
+1.Ctrl + Shift + P
+2.Write to search bar (Extensions:Disable Auto Update for All Extensions
+				 :Enable Auto Update for All Extensions = If you want to back to auto)
+!!!!!!!!!!!!!!!!!!! If you enable you auto update for All Extensions ,There will be a Clock Icon on Extensions logo.!!!!!!!!!!!!!!!!(You can understand auto update is open)
+
+*************Keeping your extensions updated is very important to have the latest features and bug fixes.**********************
+*************Also In Visual Studio Code, you can enable or disable automatic updates for individual extensions.****************
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+When you need a speacific extension in extensions you can filter with "@" for ex. (@category:themes,@category:visualzation)
+
+For isntance,you are looking a theme extension and you want to see sorting by ratings or rank,so you write like this "@category:themes @sort:rating"
+when I write like this I filter and sort themes category by rating.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Python için çalışcaksak diğer Web develop için olan extensionları yükleyelimmi onun kararını ver yarın !!! kaldığın yerden.
+Gerek olmadığına karar verildi ve sadece Pythoh ve Jupyter yüklendi
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+By Code Snap,we can take screen-shots our codes in editor.
+If you want take a screen shot for another way,you'll press Ctrl+P then write "CodeSnaP" in Search bar.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SECTİON 10:CODE SNIPPETS
+--------------------------
+◼️ What is a Code Snippet?
+---------------------------------------------------------------------
+Think about this for a moment... 🤔
+Wouldn't it be helpful to have templates for frequently used code structures?
+A template can save you a lot of time writing basic structures like for loops, while loops, functions, and classes.
+That's exactly what code snippets are for.
+A code snippet is like a template or reusable code block that you can customize.
+
+◼️ Code Snippet in Visual Studio Code
+-------------------------------------------------------------
+In Visual Studio Code, you have:
+Built-in code snippets, which are installed automatically.
+Custom code snippets, which you can define yourself.
+Code snippets, which you can download from the Extensions Marketplace.
+
+Generally these Code snippest helps for our code writting.
+And also we can create a custom snippets and templates
+
+Ctrl + Shift + P : again open Command Palette, then write Snippets:Configure Snippets
+
+---------------------------------------------------------------------------
+
+Custom Snippets are more compilacted.You have to check this 2 lecture.
+
+---------------------------------------------------------------------------------------------
+
+SECTION 11:WEB DEVELOPMENT
+----------------------------------------------------------------------------------------------
+◼️ Layout and tools
+
+◼️ Live Server Extensions
+
+◼️ Live Preview Extensions
+
+◼️ Emmet Abbreviations
+
+---------------------------------------------------------------------------------------------
+
+Drag And Drop,for editor groups when you split your screen as you want,just click and hold the script file then move the until see the gray box on your right side of your screen then Drop
+You can see the second group.
+
+Ctrl + B = Toggle Primary side bar
+Ctrl + Shift + A = Toggle Secondry Side bar
+Ctrl + J = Toggle for panel bar
+Ctrl + " = Toggle for Terminal
+
+-----------------------------------------------------------------------------------------------------
+
+In web develop there are some emmet for fater writing codes 
+for.ex : when you do  like this di>ul>li the editor gives fast output like this
+
+di>ul>li             but if you do like this  div>ul>li*5
+
+<div>				 							<div>
+  <ul>   										 	<ul>
+	 <li></li> 						 					<li></li>
+  </ul>    												<li></li>
+</div>     											 	<li></li>
+      													<li></li>
+      													<li></li>
+    												</ul>
+  												</div>								
+
+(div*2>li*2)+p+img let's see this complex simple.
+
+ <div>
+  <li></li>
+  <li></li>
+</div>
+<div>
+  <li></li>
+  <li></li>
+</div>
+<p></p>
+<img src="" alt=""> 
+
+In HTML language <a> - </a> to links
+				 <p> - </p> to passages
+				 <img> - </img> to images
+				 <li> - </li> to lists
+
+Also in HTML the Elements have a Identation
+when we write dive#container to becomne a <div id="container"></div>
+
+And also for classes
+
+div.container  <div clas="container"></div>
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+SECTION 12.Git and GitHub in visiual Studio
+
+-------------------------------------------------
+◼️ Git in Visual Studio Code
+
+◼️ Initialize a Repository
+
+◼️ Stage and unstage changes
+
+◼️ Create commits
+
+◼️ Remote repositories
+
+If you've worked with version control before, I'm sure that you'll be glad to know that Visual Studio Code has built-in support for version control with Git and GitHub.
+
+◼️ Git in Visual Studio Code
+You can perform all the essential version control tasks in Visual Studio Code, including:
+
+Initializing a repository.
+
+Tracking and checking the status of your files.
+
+Staging changes and making commits.
+
+Working with remote repositories.
+
+Cloning GitHub repositories.
+
+Working with local and remote branches.
+
+Merging and renaming branches.
+
+And more.
+
+You can also install extensions to make your workflow more efficient. We'll see a few of them during this section.
+
+
+
+◼️ Important
+Please note that this section assumes previous knowledge of Git, GitHub, and version control.
+
+You'll learn how to work with them in Visual Studio Code, but you should already be familiar with their basic principles, like repositories, commits, and branches.
+
+You should also have Git installed. You can download and install Git from its official website.
+
+
+ Ctrl+Shift+G -> shortcut for source control, we can open a repository and clone a repository.
+
+after a open a folder with source control, we can inittilaze git repository.
+
+Delete a repository
+--------------------
+
+when you delete .git folder , you will be losed your repo.
+
+Chechk State:
+--------------
+Untracked and Modified Files."U" means ,the file isn't being tracked.
+U - Untracked.
+M - Modified.
+D - Deleted.
+A - Index Added.
+
+The staging area, remember, is like the final security step to make sure that you want to commit these.
+
+when you add the files to the staged changes , in the back gorund you writed "git add ." in git bash terminal.
+
+we can commit in vs code without terminal.
+
+$git restore "file name" in VS studio we can do that with "Discard Changes Button."
+
+
+
