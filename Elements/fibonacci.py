@@ -2,9 +2,7 @@ def fibonacci_rec(n):
     if n <= 1:
         return n
     else:
-        return fibonacci_rec
-    (n-1) + fibonacci_rec
-    (n-2)
+        return fibonacci_rec(n-1) + fibonacci_rec(n-2)
 
 print(fibonacci_rec(0))
 print(fibonacci_rec(1))

@@ -359,6 +359,128 @@ when you add the files to the staged changes , in the back gorund you writed "gi
 we can commit in vs code without terminal.
 
 $git restore "file name" in VS studio we can do that with "Discard Changes Button."
+----------------------------------------------------------------------------------------------------------------------------------------
+in Visual Studio add a Remote repository:
+---------------------
+We can do it in git bash terminal with tis command $git remote add origin "repository link"
+
+in visual code :
+-------------------
+
+Source control panel > Views and make actions > Remote > Add Remote..
+
+after added the remote,click the publish then goto git hub repository site click F5 , As you can see ,the repository will be added.
+
+*----------------------------------------*----------------------*
+
+To get started with a new project, you'll often need to clone a repository from a remote source.
+
+Visual Studio Code makes this process simple and efficient.
+
+There are two different ways of cloning a repository. Let's see them.
+
+◼️ Cloning From the Explorer
+First, you should make sure that you don't have a folder open in Visual Studio Code.
+
+Then, open the Explorer and you'll see different options but you should click on "Clone Repository."
 
 
+You'll have to enter the URL of the repository that you want to clone. You can also sign it to GitHub and authenticate to choose the repository from a list of repositories.
+
+And another option use git terminal with $git clone "url"
+
+
+◼️ Cloning From the Command Palette
+Alternatively, you can go to the Command Palette with Ctrl+Shift+P (Windows) or Cmd+Shift+P (macOS).
+
+Search for Git: Clone and select this option.
+
+
+You'll see the same field where you can enter the URL of the repository that you want to clone.
+
+
+If you press Enter, the cloning process will begin and you'll have your cloned repository ready in a few seconds or minutes.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Push Changes to your GitHub Repository:
+----------------------------------
+
+again click source control panel > views and make changes > Pull,Push > push/push to (push to origin.)
+
+
+-------------------------------------------------------------------------------
+
+Pull and fetch :
+-------------------------
+
+Ass you know,When there are changes in our remote repo,we have to update our local repo to catch the project updates.
+
+In git bash terminal we can do that with, $git fetch master(or main)
+when we write this code , just we can see changes in remote repo, vut if we want 
+to pull updates in our local repo ,we have to write $git pull origin master/main 
+
+in Visiual Studio:
+-------------------
+
+source control panel > view and changes > pull,push > pull origin we can do this instead of the gitbash panel.
+
+
+
+Create a Branch:
+----------------------------------
+in visual studio code
+
+source control > view and changes > branch > create branch / create branch from
+
+an another option,
+
+source control > view and changes > checkout we can see the branchlist, alos create a new branch
+
+as we've known , we can push the file our remote with git bash terminal since we  learned in git and git hub BTK lessson. Use with $git push -u origin "file name" or just $git push ( for all changes).In visual studio we can do at the same source controş panel , just click to pull and push then push the files.Genarally, Uses "push to" for push to origin.(Remote repo)
+
+
+------------------------------------------------------------------------------------
+
+Debugging in Visual Studio code.
+------------------------------------
+
+ıntroduction to debugging
+
+The "Run and Debug" tool
+
+Debug actions
+
+Debug Console
+
+Breakpoints
+---------------------------------------------
+Debugging is an essential skill for software development.
+In visual Studio Code : Ctrl+Shift+D for debugging
+
+
+Jupyter Notebook.
+-------------------------------
+-> Introduction 
+
+-> Jupyter Extension
+
+-> Create and save a notebook
+
+-> Write and exit text and code
+
+-> Run Code and show output
+
+If you're interested in data science, then you might have heard about Jupyter Notebooks.
+
+Let's see what they are and how you can work with them in Visual Studio Code.
+
+◼️ What is a Jupyter Notebook?
+A Jupyter Notebook is an interactive environment where you can combine text, code, and visualizations.
+
+They allow you to run code and view the output directly within the document.
+
+This combination of text and code is perfect for creating descriptive data analyses.
+
+For creating new Jupyter Notebook need to go command palette(Ctrl+Shift+P).Then write juypter > create a new jupyter notebook.
 
