@@ -84,4 +84,4 @@ For links:(https://github.com/adam-p/markdown-here)
 for images:
 
 ![ A Cute pupy!](puppy.jpg)
-![ A bird from different folder !](images/bird-1.jpg)
+![ A bird from different folder !](/images/bird-1.jpg)
