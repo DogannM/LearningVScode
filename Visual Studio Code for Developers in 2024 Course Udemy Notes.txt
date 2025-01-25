@@ -32,17 +32,19 @@ minimap - surfing on the code blocks
 Shortcuts In Keyboard
 
 -------------------------------------------------------
+Ctrl+Shift+Alt+N = New Window
 Ctrl+K,F = Close Folder
+Ctrl+K,Ctrl+S = Keyboard Shortcut
 Ctrl+,  = Settings
 Ctrl+" = Terminal
-Ctrl+N = New file for codes
+Ctrl+Shift+N = New file for codes
 Ctrl+O = Open File
 Ctrl+K,Ctrl+O = Open Folder
 Ctrl+F4 = Close window
-Ctrl+Alt+Windows+N = New file with Extensions you can change file type.
+Ctrl+Alt+N = New file with Extensions you can change file type.
 Ctrl+S = Save my changes in my workspace
 Shift+Alt+F = Girinti ayarını 2 den 4 e çektin değişiklik oldmadı fakat sonra bunu yaptığında değişiklik oluyor.
-Ctrl+Alt+Shift+N = New Folder for your Workspace folder,Before you do that you have to open a workspace folder.
+Ctrl + N , Ctrl + O = New Folder for your Workspace folder,Before you do that you have to open a workspace folder.
 Ctrl+K , Ctrl+T = Change the theme
 
 ********* In settings Shift + F9 for go back to default settings after we costumized our settings. ***********
@@ -483,4 +485,40 @@ They allow you to run code and view the output directly within the document.
 This combination of text and code is perfect for creating descriptive data analyses.
 
 For creating new Jupyter Notebook need to go command palette(Ctrl+Shift+P).Then write juypter > create a new jupyter notebook.
+
+save/open and close a Jupyter Notebook file
+
+when you need to create a a new jupyter file, press Ctrl+Alt+N like creating new file In Vs code. But you have to write ".ipynb" extension for Notebook.
+
+Cell : A container for code ,text, and other types of content.
+
+There are 2 different types of cells.(Code)(Text)
+
+When we need to put output and run the code in jupyter notebook , we use "execute to cell" Ctrl+Shift+Enter for shortcut.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Markdown in visual Studio Code:
+-----------------------------------------
+
+-> Introduction to Markdown
+
+-> Markdown Basics
+
+-> Preview Markdown Files,
+
+-> Popular Extensions for Markdown
+
+-------------------------
+| *What is a Markdown:* |
+-------------------------
+
+Markdown is a lightweight markup language for creating formatted text.
+
+It's used for writing software documentation and formatting text in Jupyter Notebooks.
+
+You can write Markdown files in Visual Studio Code and preview them side by side as you write them.
+
+We Genarally use for README files to create a discription.
+Links,images,codes to save standart format.
 
