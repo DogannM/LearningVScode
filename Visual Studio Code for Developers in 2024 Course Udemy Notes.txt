@@ -522,3 +522,11 @@ You can write Markdown files in Visual Studio Code and preview them side by side
 We Genarally use for README files to create a discription.
 Links,images,codes to save standart format.
 
+Preview to Changes in Markdown file Ctrl+K,V [Alt] Ctrl+Shift+V
+
+
+
+
+
+
+**************Ctrl + End************* -> the shortest way to REACH THE LAST SENTECE 
