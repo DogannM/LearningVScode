@@ -566,3 +566,9 @@ Disable the option(s) that you prefer:
 Scroll Editor With Preview
 
 Scroll Preview With Editor
+----------------------------------------------------------
+
+Snippets for Markdown 
+
+(Ctrl + Shift + P) Command Palette > Insert snippets
+But make sure there is a open Markdown file.
