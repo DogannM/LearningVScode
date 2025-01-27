@@ -530,3 +530,39 @@ Preview to Changes in Markdown file Ctrl+K,V [Alt] Ctrl+Shift+V
 
 
 **************Ctrl + End************* -> the shortest way to REACH THE LAST SENTECE 
+
+With Markdown, you can create professional-looking tables with formatted rows and columns.
+
+Let's see how.
+
+◼️ Basic Structure
+To write a table in Markdown:
+
+Start each row with a pipe symbol (|).
+
+Use three or more hyphens to create each column's header.
+
+End each row with a pipe (|).
+
+Here's an example:
+
+|----------|-------|
+| Product  | Price |
+|----------|-------|
+| Notebook |  3.4  |
+| Pencils  |  4.5  |
+| Pens     |  6.7  | 
+|----------|-------|
+
+ Disable Scroll Synchronization
+To disable scroll synchronization:
+
+Open the Settings panel by going to File > Preferences > Settings
+
+Search for "Markdown Scroll".
+
+Disable the option(s) that you prefer:
+
+Scroll Editor With Preview
+
+Scroll Preview With Editor

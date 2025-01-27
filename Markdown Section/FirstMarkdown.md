@@ -85,3 +85,28 @@ for images:
 
 ![ A Cute pupy!](puppy.jpg)
 ![ A bird from different folder !](/images/bird-1.jpg)
+
+
+With Markdown, you can create professional-looking tables with formatted rows and columns.
+
+Let's see how.
+
+◼️ Basic Structure
+To write a table in Markdown:
+
+Start each row with a pipe symbol (|).
+
+Use three or more hyphens to create each column's header.
+
+End each row with a pipe (|).
+
+Here's an example:
+
+| Product  | Price |
+|----------|-------|
+| Notebook |  3.4  |
+| Pencils  |  4.5  |
+| Pens     |  6.7  | 
+
+| Price | Smart |
+|-------|-------|
